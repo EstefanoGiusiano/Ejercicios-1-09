@@ -35,7 +35,9 @@ namespace SRP
         {
             Libro libro1 = new Libro("Design Patterns","Erich Gamma & Others","001-034");
             Libro libro2 = new Libro("Pro C#","Troelsen","001-035")
-            libro1.AlmacenarLibro("A","7");//capas se podría hacer una clase pero en realidad está bien
+            libro1.AlmacenarLibro("A","7");
+            //capas se podría hacer una clase pero en realidad está todo bien a mi parecer
+            //establece que cada módulo o clase debe tener responsabilidad sobre una sola parte de la funcionalidad
             libro2.AlmacenarLibro("B","3");
 
         }
