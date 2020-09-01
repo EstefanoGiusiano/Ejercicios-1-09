@@ -34,9 +34,8 @@ namespace SRP
         static void Main(string[] args)
         {
             Libro libro1 = new Libro("Design Patterns","Erich Gamma & Others","001-034");
-            Libro libro2 = new Libro("Pro C#","Troelsen","001-035");
-            //hay mas de una responsabilidad por clase
-            libro1.AlmacenarLibro("A","7");
+            Libro libro2 = new Libro("Pro C#","Troelsen","001-035")
+            libro1.AlmacenarLibro("A","7");//capas se podría hacer una clase pero en realidad está bien
             libro2.AlmacenarLibro("B","3");
 
         }
